@@ -1,0 +1,30 @@
+payroll:
+  conributeBaseMin: 4279
+  conributeBaseMax: 21396
+  penisionPercent: 0.08
+  medicarePercent: 0.02
+  unemploymentPercent: 0.005
+  personalIncomeTaxProperties:
+    - levelMin: 0
+      levelMax: 1500
+      levelPercent: 0.03
+    - levelMin: 1500
+      levelMax: 4500
+      levelPercent: 0.1
+    - levelMin: 4500
+      levelMax: 9000
+      levelPercent: 0.2
+    - levelMin: 9000
+      levelMax: 35000
+      levelPercent: 0.25
+    - levelMin: 35000
+      levelMax: 55000
+      levelPercent: 0.3
+    - levelMin: 55000
+      levelMax: 80000
+      levelPercent: 0.35
+    - levelMin: 80000
+      levelPercent: 0.45
+spring:
+  jackson:
+    time-zone: GMT+8
